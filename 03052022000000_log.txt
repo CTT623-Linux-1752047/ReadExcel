@@ -1,0 +1,6 @@
+ERROR:root: 03/05/2022 09:29:19 - :  Validate > checkReferenceTechnique() 'str' object is not callable
+ERROR:root: 03/05/2022 09:30:05 - :  Validate > checkReferenceTechnique() 'str' object is not callable
+ERROR:root: 03/05/2022 09:30:54 - :  Validate > checkReferenceTechnique() 'str' object is not callable
+ERROR:root: 03/05/2022 09:34:34 - :  Validate > checkReferenceTechnique() 'str' object is not callable
+ERROR:root: 03/05/2022 09:37:16 - :  Validate > checkReferenceTechnique() 'str' object is not callable
+ERROR:root: 03/05/2022 09:56:50 - :  Validate > checkReferenceTechnique() 'str' object is not callable

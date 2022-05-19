@@ -1,0 +1,25 @@
+ERROR:root: 27/03/2022 17:55:41 - :  Validate > getRelationshipSheetTaskType() 'VariableValue' object has no attribute 'value'
+ERROR:root: 27/03/2022 17:55:41 - :  Validate > readExcel() unsupported operand type(s) for +: 'NoneType' and 'list'
+ERROR:root: 27/03/2022 18:00:47 - :  Validate > getRelationshipSheetTaskType() 'VariableValue' object has no attribute 'code'
+ERROR:root: 27/03/2022 18:00:47 - :  Validate > readExcel() unsupported operand type(s) for +: 'NoneType' and 'list'
+ERROR:root: 27/03/2022 18:02:11 - :  databaseHelpers > createVariable : 'Variable' object has no attribute 'code'
+ERROR:root: 27/03/2022 18:02:11 - :  databaseHelpers > createVariableValue : 'VariableValue' object has no attribute 'code'
+ERROR:root: 27/03/2022 18:02:11 - :  databaseHelpers > createTaskType : 'TaskType' object has no attribute 'code'
+ERROR:root: 27/03/2022 18:02:11 - :  databaseHelpers > createTechnique : 'Technique' object has no attribute 'code'
+ERROR:root: 27/03/2022 18:28:56 - :  Validate > getRelationshipSheetTaskType() 'VariableValue' object has no attribute 'variavleValue'
+ERROR:root: 27/03/2022 18:28:56 - :  Validate > readExcel() unsupported operand type(s) for +: 'NoneType' and 'list'
+ERROR:root: 27/03/2022 18:47:26 - :  databaseHelpers > createVariable : {code: Neo.ClientError.Statement.SyntaxError} {message: Invalid input 'Variable': expected an identifier (line 1, column 10 (offset: 9))
+"MERGE (v:'Variable' { variableCd: "V1" , variableDescription: "Attributs sélectionnés"} ) RETURN v"
+          ^}
+ERROR:root: 27/03/2022 18:47:26 - :  databaseHelpers > createVariableValue : {code: Neo.ClientError.Statement.SyntaxError} {message: Invalid input 'VariableValue': expected an identifier (line 1, column 11 (offset: 10))
+"MERGE (vv:'VariableValue' { variableValueCd: "V11" , variableValue: "certains", variableType: "D" } ) RETURN vv"
+           ^}
+ERROR:root: 27/03/2022 18:47:26 - :  databaseHelpers > createTaskType : {code: Neo.ClientError.Statement.SyntaxError} {message: Invalid input 'TaskType': expected an identifier (line 1, column 11 (offset: 10))
+"MERGE (tt:'TaskType' { taskTypeCd: "TT0001" , taskTypeName: "TT0001" } )"
+           ^}
+ERROR:root: 27/03/2022 18:47:26 - :  databaseHelpers > createTechnique : {code: Neo.ClientError.Statement.SyntaxError} {message: Invalid input 'Technique': expected an identifier (line 1, column 10 (offset: 9))
+"MERGE (t:'Technique' { techniqueCd: "TE01" , techniqueName: "Projection sur un ensemble d’attributs d’une table, sans condition" } ) RETURN t"
+          ^}
+ERROR:root: 27/03/2022 19:53:06 - :  Validate > readExcel() can only concatenate list (not "NoneType") to list
+ERROR:root: 27/03/2022 19:53:43 - :  Validate > readExcel() can only concatenate list (not "NoneType") to list
+ERROR:root: 27/03/2022 20:01:20 - :  Validate > readExcel() can only concatenate list (not "NoneType") to list
